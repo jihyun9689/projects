@@ -37,63 +37,6 @@
             margin-top: 50px;
             background-image: url("images/services/service-bg.jpg");
         }
-        .single-member:hover .member-hint-page {
-            opacity: 1;
-            -moz-transform: scale(1);
-            -webkit-transform: scale(1);
-            -o-transform: scale(1);
-            -ms-transform: scale(1);
-            transform: scale(1);
-        }
-        .single-member .member-hint-page {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.6);
-            left: 0;
-            top: 0;
-            text-align: center;
-            opacity: 0;
-            -webkit-transition: all 0.3s ease-out 0s;
-            -moz-transition: all 0.3s ease-out 0s;
-            -ms-transition: all 0.3s ease-out 0s;
-            -o-transition: all 0.3s ease-out 0s;
-            transition: all 0.3s ease-out 0s;
-            -moz-transform: scale(0.5);
-            -webkit-transform: scale(0.5);
-            -o-transform: scale(0.5);
-            -ms-transform: scale(0.5);
-            transform: scale(0.5);
-        }
-
-        .member-hint-page .member-info {
-            position: relative;
-            font-size: 30px;
-            color: #fff;
-            top: 30%;
-        }
-
-        .member-hint-page .member-info .member-info-text{
-            position: relative;
-            text-align: center;
-            color: #fff;
-        }
-        .member-info-text a{
-            color: #fff;
-            font-size: 20px;
-        }
-
-        .member-info-text a:hover{
-            color: #428bca;
-        }
-
-        .skill-list li{
-            float:left;
-            text-align: left;
-            font-size: 20px;
-            margin-bottom: 10px;
-            width: 100%;
-        }
     </style>
 </head><!--/head-->
 <body>
@@ -111,39 +54,31 @@
         </div>
     </div><!--/.preloader-->
     
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
-            </div>
+    <header id="navigation"> 
+        <div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
+            <div class="container"> 
+                <div class="navbar-header"> 
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+                    </button> 
+                    <a class="navbar-brand" href="index.html"><img src="images/prettyPhoto/dark_square/btnNext.png" alt="logo"></a> 
+                </div> 
+                <div class="collapse navbar-collapse"> 
+                    <ul class="nav navbar-nav navbar-right"> 
+                        <li class="scroll active"><a href="#navigation">Home</a></li> 
+                        <li class="scroll"><a href="#vision">vision</a></li> 
+                        <li class="scroll"><a href="#skill">skill</a></li> 
+                        <li class="scroll"><a href="#projects">projects</a></li> 
+                        <li class="scroll"><a href="#team">team</a></li> 
+                        <li class="scroll"><a href="#contact">Contact</a></li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div><!--/navbar--> 
+    </header> <!--/#navigation--> 
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <section class="bg-primary margin-header" id="about">
+    <section class="bg-primary margin-header" id="navigation">
         <div class="container">
             <div class="row" style="margin-top:80px;">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -199,7 +134,7 @@
 </div>
 </section>
 
-<section id="focus">
+<section id="skill">
     <div class="container">
         <div class="row text-center">
             <div class="col-sm-8 col-sm-offset-2">
@@ -279,7 +214,7 @@
     </div>
 </section><!--/#service-->
 
-<section id="our-project">
+<section id="projects">
     <div class="container">
         <div class="row text-center">
             <div class="col-sm-8 col-sm-offset-2">
@@ -293,10 +228,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                탈보로
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Talboro
                             </div>
                         </div>
                     </div>
@@ -308,10 +243,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                팜수꾼
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Pamsukkun
                             </div>
                         </div>
                     </div>
@@ -381,7 +316,7 @@
     </div>
 </section>
 
-<section id="our-team" >
+<section id="team" >
     <div class="container" >
         <div class="row text-center">
             <div class="col-sm-8 col-sm-offset-2">
@@ -389,8 +324,9 @@
             </div>
         </div>
         <div id="team-carousel" class="carousel slide" data-interval="false">
-            <a class="member-left" href="#team-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-            <a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a class="member-left" href="#team-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"
+            style="font-size:20px"></span></a>
+            <a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right" style="font-size:20px"></span></a>
             <div class="carousel-inner team-members">
                 <div class="row item active">
                     <div class="col-sm-6 col-md-3">
