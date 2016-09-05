@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Creative One Page Parallax Template">
+    <meta name="keywords" content="Creative, Onepage, Parallax, HTML5, Bootstrap, Popular, custom, personal, portfolio" /> 
+    <meta name="author" content=""> 
+    <title>HIMU - OnePage HTML Parallax template</title> 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet"> 
+    <link href="css/font-awesome.min.css" rel="stylesheet"> 
+    <link href="css/animate.css" rel="stylesheet"> 
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet"> 
+    <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> 
+    <script src="js/respond.min.js"></script> <![endif]--> 
+    <link rel="shortcut icon" href="images/ico/favicon.png"> 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png"> 
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png"> 
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png"> 
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+    <style type="text/css">
+        h1{
+            color: #ffffff;
+            font-size: 55px;
+        }
+        .heading-text{
+            color: #ffffff;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .margin-header{
+            min-height: 500px;
+            margin-top: 50px;
+            background-image: url("images/services/service-bg.jpg");
+        }
+        .single-member:hover .member-hint-page {
+            opacity: 1;
+            -moz-transform: scale(1);
+            -webkit-transform: scale(1);
+            -o-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+        .single-member .member-hint-page {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            left: 0;
+            top: 0;
+            text-align: center;
+            opacity: 0;
+            -webkit-transition: all 0.3s ease-out 0s;
+            -moz-transition: all 0.3s ease-out 0s;
+            -ms-transition: all 0.3s ease-out 0s;
+            -o-transition: all 0.3s ease-out 0s;
+            transition: all 0.3s ease-out 0s;
+            -moz-transform: scale(0.5);
+            -webkit-transform: scale(0.5);
+            -o-transform: scale(0.5);
+            -ms-transform: scale(0.5);
+            transform: scale(0.5);
+        }
+
+        .member-hint-page .member-info {
+            position: relative;
+            font-size: 30px;
+            color: #fff;
+            top: 30%;
+        }
+
+        .member-hint-page .member-info .member-info-text{
+            position: relative;
+            text-align: center;
+            color: #fff;
+        }
+        .member-info-text a{
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .member-info-text a:hover{
+            color: #428bca;
+        }
+
+        .skill-list li{
+            float:left;
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+    </style>
+</head><!--/head-->
+<body>
+    <div class="preloader">
+        <div class="preloder-wrap">
+            <div class="preloder-inner"> 
+                <div class="ball"></div> 
+                <div class="ball"></div> 
+                <div class="ball"></div> 
+                <div class="ball"></div> 
+                <div class="ball"></div> 
+                <div class="ball"></div> 
+                <div class="ball"></div>
+            </div>
+        </div>
+    </div><!--/.preloader-->
+    
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <section class="bg-primary margin-header" id="about">
+        <div class="container">
+            <div class="row" style="margin-top:80px;">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h1 class="heading animated bounceInDown">W O W W E L L</h1> 
+                    <p class="animated bounceInUp heading-text" style="font-size:20px">WE CREATE NEW GROUND</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h2 class="title-one">our VISION</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-6 st-service">
+                    <h3><i class="fa fa-flag" aria-hidden="true"></i> 목표</h3>
+                    <p>모두 잘 먹고 잘 사는 세상을 만들자!</p>
+                </div>
+
+                <div class="col-md-4 col-xs-6 st-service">
+                    <h3><i class="fa fa-eye" aria-hidden="true"></i> 가치관</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                </div>
+
+                <div class="col-md-4 col-xs-6 st-service">
+                    <h3><i class="fa fa-rocket" aria-hidden="true"></i> Challenge</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-6">
+                    <h3><i class="fa fa-book" aria-hidden="true"></i> Learning</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                </div>
+                <div class="col-md-4 col-xs-6 st-service">
+                    <h3><i class="fa fa-users" aria-hidden="true"></i> Belif</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                </div>
+
+                <div class="col-md-4 col-xs-6 st-service">
+                    <h3><i class="fa fa-star" aria-hidden="true"></i> Create</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+</section>
+
+<section id="focus">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="title-one">OUR SKILL</h2>
+                <p>WOWWELL은 아이디어에서 출발해 기획을 거쳐 실제로 개발한 시제품까지 제작할 수 있는 기술력를 보유하고 있다. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="our-focus">
+                    <div class="focus row">
+                        <div class="col-sm-4" style="margin-top: 15px;">
+                            <div class="single-focus" style="min-height: 500px">
+                                <i class="fa fa-th main-icon"></i>
+                                <h2>Software Development</h2>
+                                
+                                <ul class="skill-list" style="list-style:none; padding-left:0px">
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i>
+                                        <span>Server <br> &nbsp;&nbsp;&nbsp; <small>(Python, Node.js)</small></span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i>
+                                        <span>Mobile Application <br> &nbsp;&nbsp;&nbsp; <small>(android)</small></span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i>
+                                        <span>Cloud Computing</span>
+                                    </li>                                                                        
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" style="margin-top: 15px;">
+                            <div class="single-focus" style="min-height: 500px">
+                                <i class="fa fa-html5 main-icon"></i>
+                                <h2>Hardware Delvelopment</h2>
+                                <ul class="skill-list" style="list-style:none; padding-left:0px">
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i>
+                                        <span>MCU <br> &nbsp;&nbsp;&nbsp; <small>(Aduino, ATmega)</small></span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i>
+                                        <span>IoT</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i>
+                                        <span>Sensor<br> &nbsp;&nbsp;&nbsp; <small>(Gyro, Acceleration, Smoke...)</small></span>
+                                    </li>                                                                        
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" style="margin-top: 15px;">
+                            <div class="single-focus" style="min-height: 500px">
+                                <i class="fa fa-users main-icon"></i>
+                                <h2>Consulting</h2>
+                                <ul class="skill-list" style="list-style:none; padding-left:0px">
+                                    <li>
+                                        <p><i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i> Business Model</p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i> Funding</p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i> IT Solution</p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fa fa-check" aria-hidden="true" style="color: #fff;"></i></p>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/#service-->
+
+<section id="our-project">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="title-one">PROJECTS</h2>
+            </div>
+        </div>
+        <div class="row no-gutter popup-gallery">
+            <div class="col-lg-4 col-sm-6" style="margin-bottom:15px;">
+                <a href="images/portfolio/big-item.jpg" class="portfolio-box">
+                    <img src="images/portfolio/big-item.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="margin-bottom:15px;">
+                <a href="images/portfolio/big-item2.jpg" class="portfolio-box">
+                    <img src="images/portfolio/big-item2.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="margin-bottom:15px;">
+                <a href="images/portfolio/big-item2.jpg" class="portfolio-box">
+                    <img src="images/portfolio/big-item2.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="margin-bottom:15px;">
+                <a href="images/portfolio/big-item2.jpg" class="portfolio-box">
+                    <img src="images/portfolio/big-item2.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="margin-bottom:15px;">
+                <a href="images/portfolio/big-item2.jpg" class="portfolio-box">
+                    <img src="images/portfolio/big-item2.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="margin-bottom:15px;">
+                <a href="images/portfolio/big-item4.jpg" class="portfolio-box">
+                    <img src="images/portfolio/big-item4.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="our-team" >
+    <div class="container" >
+        <div class="row text-center">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="title-one">Meet The Team</h2>
+            </div>
+        </div>
+        <div id="team-carousel" class="carousel slide" data-interval="false">
+            <a class="member-left" href="#team-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            <div class="carousel-inner team-members">
+                <div class="row item active">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <div class="image-holder"> 
+                                <img src="images/profile/profile_shim.jpg" alt="team member" />
+                                <h4>심 민 규</h4>
+                                <h5>Sr. Web Developer</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                            </div>
+                            <div class="member-hint-page">
+                                <div class="member-info">
+                                    <p>All IN!</p>
+                                    <div class="member-info-text">
+                                        <a href="" style="margin-right:5px"><i class="fa fa-facebook"></i></a>
+                                        <a href="" style="margin-right:5px"><i class="fa fa-twitter"></i></a>
+                                        <a href="" style="margin-right:5px"><i class="fa fa-google-plus"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <div class="image-holder"> 
+                                <img src="images/profile/profile_park.jpg" alt="team member" />
+                                <h4>박 훈 정</h4>
+                                <h5>Sr. Web Developer</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                            </div>
+                            <div class="member-hint-page">
+                                <div class="member-info">
+                                    <p>All IN!</p>
+                                    <div class="member-info-text">
+                                        <a href="" style="margin-right:5px"><i class="fa fa-facebook"></i></a>
+                                        <a href="" style="margin-right:5px"><i class="fa fa-twitter"></i></a>
+                                        <a href="" style="margin-right:5px"><i class="fa fa-google-plus"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <div class="image-holder"> 
+                                <img src="images/profile/profile_lee.jpg" alt="team member" />
+                                <h4>이 동 혁</h4>
+                                <h5>Sr. Web Developer</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                            </div>
+                            <div class="member-hint-page">
+                                <div class="member-info">
+                                    <p>All IN!</p>
+                                    <div class="member-info-text">
+                                        <a href="" style="margin-right:5px"><i class="fa fa-facebook"></i></a>
+                                        <a href="" style="margin-right:5px"><i class="fa fa-twitter"></i></a>
+                                        <a href="" style="margin-right:5px"><i class="fa fa-google-plus"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <div class="image-holder"> 
+                                <img src="images/profile/profile_kim.jpg" alt="team member" />
+                                <h4>김 지 현</h4>
+                                <h5>Sr. Web Developer</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                            </div>
+                            <div class="member-hint-page">
+                                <div class="member-info">
+                                    <p>Just do it now</p>
+                                    <div class="member-info-text">
+                                        <a href="" style="margin-right:5px"><i class="fa fa-facebook"></i></a>
+                                        <a href="" style="margin-right:5px"><i class="fa fa-twitter"></i></a>
+                                        <a href="" style="margin-right:5px"><i class="fa fa-google-plus"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row item">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="images/our-team/member1.jpg" alt="team member" />
+                            <h4>William Hurt</h4>
+                            <h5>Sr. Web Developer</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="images/our-team/member3.jpg" alt="team member" />
+                            <h4>Paul Johnson</h4>
+                            <h5>Skilled Programmer</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="images/our-team/member2.jpg" alt="team member" />
+                            <h4>Alekjandra Jony</h4>
+                            <h5>Creative Designer</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="single-member">
+                            <img src="images/our-team/member4.jpg" alt="team member" />
+                            <h4>John Richerds</h4>
+                            <h5>Marketing Officer</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/#Our-Team-->
+
+<section id="contact">
+    <div class="container">
+        <div class="row text-center clearfix">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="contact-heading">
+                    <h2 class="title-one">Contact With Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="contact-details">
+            <div class="pattern"></div>
+            <div class="row text-center clearfix">
+                <div class="col-sm-6">
+                    <div class="contact-address"><address><p><span>Devs</span>Cluster</p><strong>36 North Kafrul<br>Dhaka Cantonment Area<br> Dhaka-1206, Bangladesh</strong><br><small>( Lorem ipsum dolor sit amet, consectetuer adipiscing elit )</small></address>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6"> 
+                    <div id="contact-form-section">
+                        <div class="status alert alert-success" style="display: none"></div>
+                        <form id="contact-form" class="contact" name="contact-form" method="post" action="send-mail.php">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control name-field" required="required" placeholder="Your Name"></div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Your Email">
+                                </div> 
+                                <div class="form-group">
+                                    <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                                </div> 
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </div>
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section> <!--/#contact--> 
+
+    <footer id="footer"> 
+        <div class="container"> 
+            <div class="text-center"> 
+                <p>Copyright &copy; 2014 - <a href="http://mostafiz.me/">Mostafiz</a> | All Rights Reserved</p> 
+            </div> 
+        </div> 
+    </footer> <!--/#footer--> 
+
+    <script type="text/javascript" src="js/jquery.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script> 
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+    <script type="text/javascript" src="js/jquery.parallax.js"></script> 
+    <script type="text/javascript" src="js/main.js"></script> 
+
+
+</body>
+</html>
