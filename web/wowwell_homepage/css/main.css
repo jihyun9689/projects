@@ -47,8 +47,8 @@ body {
 	color:#43484E
 }
 
-body  section{
-	padding: 50px 0;
+body section{
+	padding: 60px 0;
 }
 
 a:hover {
@@ -272,7 +272,8 @@ h1, h2, h3, h4, h5, h6 {
 #navigation .navbar-nav.navbar-right li a {
 	color: #43484E;
 	font-family: 'Roboto',sans-serif;
-	font-size: 14px;
+	font-size: 17px;
+	font-weight: bold;
 	padding: 0;
 	text-transform: uppercase;
 	-webkit-transition: all .9s ease 0s;
@@ -285,20 +286,11 @@ h1, h2, h3, h4, h5, h6 {
 #navigation .navbar-inverse .navbar-nav  .active  a,  
 #navigation .navbar-inverse .navbar-nav  .active  a:focus, 
 #navigation .navbar-nav.navbar-right li a:hover {
-	color: #fc7700;
+	color: #0033CC;
+	font-size:17px;
 	background-color: #ffffffff;
+	font-width: bold;
 }
-
-        .heading-text{
-            color: #ffffff;
-            font-size: 20px;
-            margin-top: 20px;
-        }
-        .margin-header{
-            min-height: 500px;
-            margin-top: 50px;
-            background-image: url("images/services/service-bg.jpg");
-        }
 
 /*======================
 ====Main Slider CSS=====
@@ -466,14 +458,13 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	font-size: 32px;
 	font-weight: 600;
-	padding-bottom:10px;
 	text-align: center;
 	text-transform: uppercase;
 	position:relative
 }
 
 .title-one:after {
-	color: #fc7700;
+	color: #428bca;
 	content: "||";
 	position: absolute;
 	right: -40px;
@@ -481,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-one:before {
-	color: #fc7700;
+	color: #428bca;
 	content: "||";
 	left: -40px;
 	position: absolute;
@@ -603,16 +594,24 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
 /*====================
 ======Service CSS=====
 ======================*/
 
+#projects{
+	
+}
+
+#projects h2{
+  color: #000;
+  border-color: #fff;
+  margin-bottom:35px
+}
+
 #skill {
-  background-image: url("../images/services/service-bg.jpg");
-  color:#fff;
+  color:#000;
   text-align:center;
-  background-color:	#0A0A13;
+  background:#ebebeb;
 }
 
 .skill {
@@ -622,7 +621,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #skill h2{
-  color: #fff;
+ /* color: #000;*/
   border-color: #fff;
   margin-bottom:35px
 }
@@ -636,8 +635,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-focus {
-	background-color: rgba(0, 0, 0, 0.39);
-	padding:25px;
+/*	background-color: rgba(0, 0, 0, 0.39);*/
+/*	padding:25px;*/
 	transition: all 0.9s ease 0s;
 	-moz-transition: all 0.9s ease 0s;
 	-webkit-transition: all 0.9s ease 0s;
@@ -664,19 +663,19 @@ h1, h2, h3, h4, h5, h6 {
 	-o-transition: all 0.9s ease 0s;
 }
 
-.single-focus:hover {
-	background-color: #fc7700;
-}
+/*.single-focus:hover {
+	background-color: #0033CC;
+}*/
 
-.single-focus:hover i {
-	color:#fc7700;
+/*.single-focus:hover i {
+	color:#0033CC;
 	-moz-transform: scale(1.1) rotate(360deg);
 	-webkit-transform: scale(1.1) rotate(360deg);
 	-o-transform: scale(1.1) rotate(360deg);
 	-ms-transform: scale(1.1) rotate(360deg);
 	transform: scale(1.1) rotate(360deg);
 }
-
+*/
 
 /*=====================
 ======Our Team CSS=====
@@ -687,13 +686,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #team {
-	background-image: url("../images/services/service-bg.jpg");
-	color:#fff;
+	color:#000;
+	background:#d0d0d0;
 }
 
 #team h2 {
-	color:#fff;
+	color:#000;
 	margin-bottom:35px;
+}
+
+.image-holder img{
+    border-radius: 5px;
 }
 
 .single-member:hover .member-hint-page {
@@ -708,7 +711,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0,51,204,.6);
     left: 0;
     top: 0;
     text-align: center;
@@ -718,11 +721,7 @@ h1, h2, h3, h4, h5, h6 {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    -moz-transform: scale(0.5);
-    -webkit-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
+    border-radius: 5px;
 }
 
 #team .team-members {
@@ -734,13 +733,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .single-member {
     position: relative;
-	height:430px;
 	background-color:#fff;
-	border: 1px solid #43484E;
 	color: #000;
-	padding: 25px;
+	padding: 5px;
 	text-align:center;
 	overflow:hidden;
+	margin-bottom:10px
 }
 
 .single-member img {
@@ -1620,13 +1618,14 @@ h1, h2, h3, h4, h5, h6 {
 	color:#fff;
 	opacity:0;
 	display:block;
-	background:rgba(240,95,64,.9);
+	background:rgba(0,51,204,.6);
 	position:absolute;
 	bottom:0;
 	text-align:center;
 	width:100%;
 	height:100%;
-	transition:all .35s;}
+	transition:all .35s;
+	border-radius: 5px}
 .portfolio-box:hover .portfolio-box-caption{opacity:1}
 
 @media (min-width:768px)
