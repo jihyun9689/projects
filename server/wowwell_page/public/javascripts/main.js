@@ -97,9 +97,8 @@ function Scroll() {
 };
 
 
-	// Skill bar Function
-
-	jQuery(document).ready(function(){
+// Skill bar Function
+jQuery(document).ready(function(){
 	jQuery('.skillbar').each(function(){
 		jQuery(this).find('.skillbar-bar').animate({
 			width:jQuery(this).attr('data-percent')
